@@ -1,0 +1,36 @@
+html {
+  background-color: #312F2F;
+}
+
+
+
+header {
+  height: 70px;
+  background-color: #4B4B4B;
+  display: flex;
+  padding: 20px 36px;
+  
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  color: #ECC600;
+  list-style-type: none;
+}
+
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  
+  
+}
+
+footer {
+  background-color: #4B4B4B;
+  height: 100px;
+  text-align: center;
+  
+}
