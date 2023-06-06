@@ -1,4 +1,7 @@
 import Intro from "../components/Intro";
+import Icons from "../components/Icons";
+import About from "../components/About";
+import Projects from "../components/Projects";
 
 function Home() {
   return (
@@ -6,6 +9,9 @@ function Home() {
       <div>
         {" "}
         <Intro />
+        <Icons />
+        <About />
+        <Projects />
       </div>
     </html>
   );

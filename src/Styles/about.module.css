@@ -1,0 +1,15 @@
+.about p {
+    color: white;
+    max-width: 700px;
+    margin-left: 50px;
+}
+
+.about {
+    display: flex;
+    
+}
+
+.pdf {
+    margin-left: 100px;
+    width: 100px;
+}
