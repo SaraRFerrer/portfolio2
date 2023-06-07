@@ -6,10 +6,28 @@
     width: 40%;
 }
 
+.h3{
+    color: #ECC600;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    border-bottom: 1px solid red;
+    padding: 20px;
+}
+
 .icons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
   
   }
   
@@ -17,12 +35,4 @@
     width: 100px; 
     height: 100px; 
     margin: 20px;
-  }
-  
-  @media (max-width: 600px) {
-    .icons img {
-      width: 80px; 
-      height: 80px; 
-      margin: 5px; 
-    }
   }

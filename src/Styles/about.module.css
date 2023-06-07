@@ -13,3 +13,24 @@
     margin-left: 100px;
     width: 100px;
 }
+
+.h2 {
+    color: white;
+    margin: 20px;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+    width: 40%;
+}
+
+.contact img {
+    width: 100px; 
+    height: 100px; 
+    margin: 20px;
+
+    
+}
+
+.contact {
+    color: white;
+}
+

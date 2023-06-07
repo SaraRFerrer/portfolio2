@@ -6,7 +6,7 @@ function About() {
   return (
     <div>
       <div>
-        <h2>About Me</h2>
+        <h2 className={styles.h2}>About Me</h2>
       </div>
       <div className={styles.about}>
         <p>

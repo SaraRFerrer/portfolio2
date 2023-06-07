@@ -1,0 +1,45 @@
+html {
+    background-color: #312F2F;
+}
+
+.card img {
+    width: 100%;
+}
+
+.project  {
+    height: 200px;
+}
+
+.card {
+    background-color: #464545;
+    margin-bottom: 20px;
+   
+
+}
+
+.card p {
+    color: white;
+}
+
+.icon img {
+    width: 100%;
+    max-width: 50px;
+}
+
+h3, h4 {
+    color: #ECC600;
+}
+
+.h2 {
+    color: white;
+    margin: 20px;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+    width: 40%;
+}
+
+.icon {
+    display: flex;
+    gap: 40px;
+}
+

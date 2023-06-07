@@ -14,7 +14,7 @@ function Icons() {
   return (
     <div>
       <div>
-        <h2>Programs I use</h2>
+        <h2 className={styles.h2}>Programs I use</h2>
       </div>
       <div className={styles.icons}>
         <img src={js} alt="javascript icon" />
