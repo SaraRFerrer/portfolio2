@@ -6,10 +6,7 @@ function Nav() {
     <nav>
       <ul>
         <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/resume">Resume</Link>
+          <Link to="/resume">View My Resume</Link>
         </li>
       </ul>
     </nav>

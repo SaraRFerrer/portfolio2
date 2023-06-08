@@ -11,7 +11,7 @@ html {
 }
 
 .card {
-    background-color: #464545;
+    background-color: #464545 !important;
     margin-bottom: 20px;
    
 
@@ -27,7 +27,7 @@ html {
 }
 
 h3, h4 {
-    color: #ECC600;
+    color: #ECC600 !important;
 }
 
 .h2 {

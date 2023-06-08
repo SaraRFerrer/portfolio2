@@ -8,6 +8,7 @@ import browser from "../media/browser.png";
 import styles from "../Styles/projects.module.css";
 import github from "../media/github.png";
 import netlify from "../media/netlify.png";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -38,9 +39,12 @@ function Projects() {
                 <div className={styles.icon}>
                   <img src={js} alt="javascript icon" />
                   <img src={browser} alt="html and css icon" />
-
-                  <img src={github} alt="github icon" />
-                  <img src={netlify} alt="netlify" />
+                  <Link to="https://github.com/SaraRFerrer/Semester_Project_2">
+                    <img src={github} alt="github icon" />
+                  </Link>
+                  <Link to="https://resplendent-puffpuff-10b198.netlify.app/">
+                    <img src={netlify} alt="netlify" />{" "}
+                  </Link>
                 </div>
               </Card>
             </Col>
@@ -52,9 +56,9 @@ function Projects() {
                 <h3>Online auction site</h3>
                 <div>
                   <p>
-                    This is my second semester project at Noroff. We were given
-                    a brief to create an online auction site using a provided
-                    API.
+                    This is the first project I built using React. We were
+                    tasked to build an easy e-commerce website with an
+                    implemented cart function.
                   </p>
                 </div>
                 <div className={styles.icon}>
@@ -65,8 +69,12 @@ function Projects() {
                   <img src={js} alt="javascript icon" />
                   <img src={browser} alt="html and css icon" />
 
-                  <img src={github} alt="github icon" />
-                  <img src={netlify} alt="netlify" />
+                  <Link to="https://github.com/SaraRFerrer/js_frameworks_ca">
+                    <img src={github} alt="github icon" />
+                  </Link>
+                  <Link to="https://beautiful-torrone-451d81.netlify.app">
+                    <img src={netlify} alt="netlify" />{" "}
+                  </Link>
                 </div>
               </Card>
             </Col>
@@ -78,9 +86,9 @@ function Projects() {
                 <h3>Online auction site</h3>
                 <div>
                   <p>
-                    This is my second semester project at Noroff. We were given
-                    a brief to create an online auction site using a provided
-                    API.
+                    For my last exam I built a accommodation website using
+                    React. The site offers different features and is the project
+                    that best shows what I can do.
                   </p>
                 </div>
                 <div className={styles.icon}>
@@ -91,8 +99,12 @@ function Projects() {
                   <img src={js} alt="javascript icon" />
                   <img src={browser} alt="html and css icon" />
 
-                  <img src={github} alt="github icon" />
-                  <img src={netlify} alt="netlify" />
+                  <Link to="https://github.com/SaraRFerrer//Project-Exam-2">
+                    <img src={github} alt="github icon" />
+                  </Link>
+                  <Link to="https://eloquent-gecko-1f29be.netlify.app">
+                    <img src={netlify} alt="netlify" />{" "}
+                  </Link>
                 </div>
               </Card>
             </Col>
